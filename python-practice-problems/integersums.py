@@ -10,9 +10,9 @@ import unittest
 
 def add_it_up(n):
     # TODO: Your code goes here!
-    sum=n
+    num=n
     n=0
-    for i in range(sum):
+    for i in range(num+1):
         n=n+i
     return n
 
