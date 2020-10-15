@@ -15,7 +15,14 @@ def add_it_up(n):
     for i in range(num+1):
         n=n+i
     return n
-### One more solution - return sum(range(n+1))
+### One more solution - return sum(range(n+1))   //one line solution //Power of Python
+### Adding try...except to this above code to handle exceptions, such as string, float etc.
+## def add_it_up(n):
+##     try:
+##          result = sum(range(n+1))
+##     except TypeError:
+##          result = 0
+##     return result
 
 
 class IntegerSumTestCase(unittest.TestCase):
