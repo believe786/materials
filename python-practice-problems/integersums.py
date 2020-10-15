@@ -15,6 +15,7 @@ def add_it_up(n):
     for i in range(num+1):
         n=n+i
     return n
+### One more solution - return sum(range(n+1))
 
 
 class IntegerSumTestCase(unittest.TestCase):
